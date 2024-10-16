@@ -3,6 +3,7 @@ import "./App.css";
 import Counter from "./counter";
 import Team from "./Team";
 import Gamer from "./Gamer";
+import Friends from "./Friends";
 
 function App() {
   function handleClick() {
@@ -17,7 +18,9 @@ function App() {
   };
   return (
     <>
-      <h2>React Core Concept 2</h2>
+      <h1>React Core Concept 2</h1>
+      <Friends></Friends>
+      <Users></Users>
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handle2}>Click 2</button>
       <button
@@ -34,11 +37,7 @@ function App() {
       <Counter></Counter>
       {/* <Team></Team> */}
       {/* <Gamer></Gamer> */}
-     
-
-
-     
-     </>
+    </>
   );
 }
 
