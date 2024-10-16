@@ -1,6 +1,8 @@
+import Users from "./Users";
 import "./App.css";
 import Counter from "./counter";
-import Team from "./team";
+import Team from "./Team";
+import Gamer from "./Gamer";
 
 function App() {
   function handleClick() {
@@ -27,9 +29,16 @@ function App() {
       </button>
       {/* প্যাচানো সিস্টেম */}
       <button onClick={() => handleBtn4(5)}>Btn 4</button>
+
+      {/*  Counter, Team, Gamer ৩ টাতে সেম কাজ করেছি */}
       <Counter></Counter>
-      <Team></Team>
-    </>
+      {/* <Team></Team> */}
+      {/* <Gamer></Gamer> */}
+     
+
+
+     
+     </>
   );
 }
 
