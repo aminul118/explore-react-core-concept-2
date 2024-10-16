@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Team() {
-  const [setCount, updateCount] = useState(0);
+  const [setCount, updateCount] = useState(11);
 
   const handlerAddPlayer = () => {
     const newSetCount = setCount + 1;
